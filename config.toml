@@ -1,0 +1,44 @@
+title = "Chritchens"
+description = "Chritchen(s)'s marvelous blog"
+base_url = "https://example.com" # TODO
+default_language = "en"
+
+compile_sass = true
+ignored_content = ["*.{sw,swo}", "~*", "#*"]
+
+theme = "terminimal"
+highlight_code = true
+highlight_theme = "ayu-light" # try dracula too
+build_search_index = true
+check_external_links = true
+generate_rss = true
+taxonomies = [
+    {name = "tags"},
+]
+
+[extra]
+
+logo_text = "Chritchens"
+
+author = "Christian Nyumbayire"
+
+copyright_html = "Copywat 2019 Christian Nyumbayire. Built with <a href='https://www.getzola.com' target='_blank' style='margin-left:10px'>Zola</a> and <a href='https://github.com/pawroman/zola-theme-terminimal' target='_blank' style='margin-left:10px'>terminimal</a>"
+
+use_full_hack_font = true
+
+enable_post_view_navigation = true
+
+post_view_navigation_prompt = "Read more"
+
+menu_items = [
+    {name = "blog", url = "$BASE_URL"},
+    {name = "tags", url = "$BASE_URL/tags"},
+    {name = "archive", url = "$BASE_URL/archive"},
+    {name = "github", url = "https://github.com/chritchens", newtab = true },
+    {name = "twitter", url = "https://twitter.com/Chritchen", newtab = true },
+    {name = "linkedin", url = "https://linkedin.com/in/chritchens", newtab = true},
+]
+
+accent_color = "orange" # options: blue, green, orange, pink, red
+
+background_color = "blue" # options: blue, dark, green, orange, pink, red 
