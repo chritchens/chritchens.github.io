@@ -1,6 +1,6 @@
 title = "Chritchens"
 description = "Chritchen(s)'s marvelous blog"
-base_url = "https://example.com" # TODO
+base_url = "https://chritchens.github.io"
 default_language = "en"
 
 compile_sass = true
