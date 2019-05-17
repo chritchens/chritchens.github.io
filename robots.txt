@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://chritchens.github.io/sitemap.xml
